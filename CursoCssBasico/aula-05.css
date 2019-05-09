@@ -1,0 +1,22 @@
+p{
+    text-align: justify;
+    color: #690c0c;
+    text-decoration: line-none;
+    text-transform: capitalize;
+    text-indent: 20px;
+    line-height: 15px;
+    direction: ltr;
+    letter-spacing: -1px;
+    word-spacing: opx;
+}
+h1{
+    text-align: left;
+     text-shadow: 1px 2px #ff0000;
+    text-decoration: underline;
+}
+h2{
+    text-align: right; text-decoration: overline;
+}
+h3{
+    text-align: center; text-decoration: line-through;
+}

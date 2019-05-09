@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Cursos NodeStudio</title>
+    <meta name="decription" content="Cursos de Desenvolvimento Web">
+    <meta name="keywords" content="Html5, CSS3, PHP">
+    <meta name="author" content="Rondinele Guimarães">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Informaçoes de Cadastro</legend>
+            Nome: <br>
+            <input type="text" name="nome" placeholder="Digite seu Nome" autocomplete="on" autofocus required maxlength="50"><br>
+
+            Senha:<br>
+            <input type="password" name="senha" required><br>
+
+            Email:<br>
+            <input type="email" name="email" placeholder="Digite seu Email" autocomplete="on" required><br>
+
+            Imagen:<br>
+            <input type="file" name="imagen"><br>
+
+            Data:<br>
+            <input type="date" name="data" min="2000-12-31" max="2015-12-31"><br>
+
+            Hora:<br>
+            <input type="time" name="hora">
+            <!--Input Invisivel-->
+            <input type="hidden" name="id"><br>
+
+            Mes e Ano :<br>
+            <input type="month" name="mes-ano"><br>
+
+            Semana:<br>
+            <input type="week" name="semana"><br>
+
+            Data e Hora :<br>
+            <input type="datetime-local" name="data-hora"><br>
+
+            Mensagen:<br>
+            <textarea name="mensagen" rows="5" cols="10" spellcheck="true"></textarea><br>
+            <button type="button">Click Me</button><br>
+            <br>
+
+            Escolha seu veiculo:<br>
+            <select name="veiculos">
+                <optgroup label="Carros">
+                    <option value="camaro">Camaro</option>
+                    <option value="corsa">Corsa</option>
+                    <option value="uno">Uno</option>
+                    <option value="gol">Gol</option>
+                </optgroup>
+                <optgroup label="Motos">
+                    <option value="cg150" selected>CG 150</option>
+                    <option value="pop100">Pop 100</option>
+                    <option value="sig-50">Zig-50</option>
+                    <option value="ybr">YBR</option>
+                </optgroup>
+            </select>
+            <br><br>
+            Escolha um Curso:<br>
+            <input name="cursos" list="lista-cursos">
+            <datalist id="lista-cursos">
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="JavaScript"></option>
+                <option value="PHP"></option>
+            </datalist>
+            <br>
+            URL:<br>
+            <input type="url" name="site"><br>
+
+            Pesquisa:<br>
+            <input type="search" name="prsquisa"><br>
+
+            Telefone:<br>
+            <input type="tel" name="tekefone"><br>
+            <input type="radio" name="time" value="cruzeiro" checked>Cruzeiro<br>
+            <input type="radio" name="time" value="flamengo">Flamengo<br>
+            <input type="radio" name="time" value="vasco">Vasco<br>
+            <input type="radio" name="time" value="botafogo">Botafogo<br>
+
+            Sexo:<br>
+            <input type="checkbox" name="sexo" value="Masculino" checked><br>
+            <input type="checkbox" name="sexo" value="Feminino"><br>
+
+            Cores:<br>
+            <input type="checkbox" name="cores" value="verde">Verde<br>
+            <input type="checkbox" name="cores" value="azul" checked>Azul<br>
+            <input type="checkbox" name="cores" value="branco">Branco<br>
+            <input type="checkbox" name="cores" value="amarelo">Amarelo<br>
+            <input type="checkbox" name="cores" value="vermelhor">Vermelho<br>
+
+            Quantidade:<br>
+            <input type="number" name="quantidade" min="0" max="100" step="10"><br>
+            <input type="range" name="quantidade"><br>
+
+            Cor:<br>
+            <input type="color" name="cor"><br>
+
+            <input type="submit" name="btn-emviar" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+
+</html>

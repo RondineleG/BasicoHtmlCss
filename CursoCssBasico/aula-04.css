@@ -1,0 +1,19 @@
+/*
+Padding e o espacamento interno
+*/
+#exemplo{
+    background-color: #f1e9e9;
+    color:#d5559a;
+    width: 500px;
+    padding: 20px 10px 30px 30px;
+}
+/*
+Margin e o espacamento externo
+*/
+#exemplo2{
+    background-color: #c3c5e9;
+    color: #1d1313;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20;
+}

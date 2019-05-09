@@ -1,0 +1,17 @@
+:root {
+    --fundo: red;
+    --texto: white;
+    --espaco: 20px;
+}
+
+#div1 {
+    background-color: var(--fundo);
+    color: var(--texto);
+    padding: var (var(--espaco))
+}
+
+#div3 {
+    background-color: #6d5e5e;
+    color: #184155;
+    padding: 10px;
+}

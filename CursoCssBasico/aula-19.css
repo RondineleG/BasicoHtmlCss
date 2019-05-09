@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    width: 100vw;
+    height: 30px;
+    background-color: #9b518e;
+}
+
+.banner {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background: url(/CursoCssBasico/img/bg.jpg) center center /100% 100% scroll;
+    background-size: cover;
+}
